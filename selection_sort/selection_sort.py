@@ -6,11 +6,11 @@ def selection_sort(arr):
             if arr[nextIndex] < arr[minIndex]:
                 minIndex = nextIndex
 
-        if minIndex != numIndex:
-            temp = arr[numIndex]
-            arr[numIndex] = arr[minIndex]
-            arr[minIndex] = temp
-
+        # if minIndex != numIndex:
+        temp = arr[numIndex]
+        arr[numIndex] = arr[minIndex]
+        arr[minIndex] = temp
+    
     return arr
 
 
