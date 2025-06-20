@@ -1,8 +1,8 @@
 def selection_sort(arr):
     n = len(arr)
-    for numIndex in range(n - 1):
+    for numIndex in range(n):
         minIndex = numIndex
-        for nextIndex in range(numIndex + 1, n - 1):
+        for nextIndex in range(numIndex + 1, n):
             if arr[nextIndex] < arr[minIndex]:
                 minIndex = nextIndex
 
